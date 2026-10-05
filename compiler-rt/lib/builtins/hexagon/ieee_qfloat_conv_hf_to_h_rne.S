@@ -111,6 +111,4 @@ FUNCTION_BEGIN __qf_fast_convert_hf_to_h_rne
 	jumpr LR
 }
 FUNCTION_END __qf_fast_convert_hf_to_h_rne
-#else
-#error "These QFloat conversion routines are for Hexagon V79 only"
 #endif
